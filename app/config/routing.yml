@@ -1,0 +1,8 @@
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+
+
+users:
+    type:   rest
+    resource:   Acme\DemoBundle\Controller\UsersController
